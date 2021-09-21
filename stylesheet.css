@@ -1,0 +1,97 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 100px 200px;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+p {
+    font-size: 16px;
+}
+
+.content {
+    background-color: white;
+    border-radius: 25px;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.top-div {
+}
+
+.top-img {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.order-summary {
+    width: 75%;
+    margin: auto;
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    height: 50px;
+    margin: auto 5em 20px;
+    border-radius: 25px;
+    padding: 1em 1em;
+}
+
+.plan-price {
+    position: relative;
+    right: 2em;
+    display: inline-block;
+}
+
+.annual {
+    font-weight: bold;
+    display: inline;
+}
+
+.price {
+    display: inline;
+}
+
+.note-icon {
+    float: left;
+}
+
+.change-link {
+    position: relative;
+    bottom: 0.8em;
+    left: 3em;
+}
+
+.proceed-cancel {
+}
+
+.proceed-cancel button {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    width: 358px;
+    height: 40px;
+    box-shadow: 0px 10px hsl(225, 100%, 94%);
+    margin-bottom: 2em;
+    color: white;
+    font-weight: bold;
+}
+.proceed-cancel button:active {
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel {
+    color: grey;
+    text-decoration: none;
+}
+
+.cancel:active {
+    color: black;
+}
